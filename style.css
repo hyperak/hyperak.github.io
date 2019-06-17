@@ -1,17 +1,54 @@
-header,p,h1,h2 {
-font-family: 'PT Sans'
+body {
+background-color: #272727;
+}
+
+p,a,h2 {
+font-family: 'Fira Sans';
+}
+
+header,h2 {
+color: #6381cb;
 }
 
 header {
-color: #0f2145;
+font-family: 'Ubuntu';
+font-weight: 700;
 padding: 0px 20px 0px 20px;
-border-bottom: 2px solid #1144c0;
+border-bottom: 3px solid #1144c0;
 }
 
 h2 {
 padding: 0px 0px 0px 10px;
+border-left: 5px solid #1144c0;
 }
 
 p {
 font-size: 18px;
+color: #fafafa;
+}
+
+a {
+color: #6381cb;
+text-decoration: none;
+}
+
+#reddit,#email,#tox {
+display: table;
+font-size: 22px;
+padding: 0px 10px 0px 10px;
+}
+
+#reddit {
+border-left: 3px solid #ff0000;
+color: #ff0000;
+}
+
+#email {
+border-left: 3px solid #ffff00;
+color: #ffff00;
+}
+
+#tox {
+border-left: 3px solid #00ff00;
+color: #00ff00;
 }
