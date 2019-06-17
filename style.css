@@ -1,0 +1,17 @@
+header,p,h1,h2 {
+font-family: 'PT Sans'
+}
+
+header {
+color: #0f2145;
+padding: 0px 20px 0px 20px;
+border-bottom: 2px solid #1144c0;
+}
+
+h2 {
+padding: 0px 0px 0px 10px;
+}
+
+p {
+font-size: 18px;
+}
