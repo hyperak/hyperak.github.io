@@ -1,5 +1,6 @@
 * {
 box-sizing: border-box;
+word-wrap: break-word;
 }
 
 body {
@@ -13,11 +14,21 @@ padding-left: 10px
 
 p,a {
 font-family: 'Fira Sans';
+font-size: 18px;
 }
 
 header,h2 {
 color: #6381cb;
 }
+
+p {
+color: #fafafa;
+}
+
+a {
+color: #6381cb;
+text-decoration: none;
+} 
 
 header {
 font-family: 'Ubuntu';
@@ -33,16 +44,6 @@ font-family: 'Ubuntu';
 font-weight: 500;
 padding: 0px 0px 0px 10px;
 border-left: 5px solid #1144c0;
-}
-
-p {
-font-size: 18px;
-color: #fafafa;
-}
-
-a {
-color: #6381cb;
-text-decoration: none;
 }
 
 .contact {
