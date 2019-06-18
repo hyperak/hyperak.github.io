@@ -17,7 +17,7 @@ font-family: 'Fira Sans';
 font-size: 18px;
 }
 
-header,h2 {
+header,h2,h3 {
 color: #6381cb;
 }
 
@@ -43,6 +43,13 @@ h2 {
 font-family: 'Ubuntu';
 font-weight: 500;
 padding: 0px 0px 0px 10px;
+border-left: 5px solid #1144c0;
+}
+
+h3 {
+font-family: 'Ubuntu';
+font-weight: 500;
+padding: 0px 0px 0px 15px;
 border-left: 5px solid #1144c0;
 }
 
